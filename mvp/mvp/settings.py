@@ -5,6 +5,10 @@ from os.path import abspath, basename, dirname, join, normpath
 DJANGO_ROOT = dirname(dirname(abspath(__file__)))
 
 
+
+STRIPE_SECRET = 'sk_test_h36oicOrlA7ATkI9JJ6dUGyA'
+STRIPE_PUBLISHABLE = 'pk_test_8Xho4FfArFFuQspdH8V1KlHS'
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -74,7 +78,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    normpath(join(DJANGO_ROOT, 'static'))
+    normpath(join(DJANGO_ROOT, 'static')),
 )
 
 # List of finder classes that know how to find static files in
