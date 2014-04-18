@@ -6,8 +6,7 @@ DJANGO_ROOT = dirname(dirname(abspath(__file__)))
 
 
 
-STRIPE_SECRET = 'sk_test_h36oicOrlA7ATkI9JJ6dUGyA'
-STRIPE_PUBLISHABLE = 'pk_test_8Xho4FfArFFuQspdH8V1KlHS'
+
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -170,5 +169,5 @@ LOGGING = {
     }
 }
 
-STRIPE_SECRET = 'sk_test_JTcqlKfPZAwUwIwyEYMMVaUi'
-STRIPE_PUBLISHABLE = 'pk_test_9lv8uuTfWZFNJTWleyZbU2QA'
+STRIPE_SECRET = 'sk_test_h36oicOrlA7ATkI9JJ6dUGyA'
+STRIPE_PUBLISHABLE = 'pk_test_8Xho4FfArFFuQspdH8V1KlHS'
